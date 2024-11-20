@@ -1,0 +1,135 @@
+0 verbose cli /usr/local/nvm/versions/node/v22.11.0/bin/node /usr/local/nvm/versions/node/v22.11.0/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:/usr/local/nvm/versions/node/v22.11.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/admin_/customer-admin-app/.npmrc
+5 silly config load:file:/home/admin_/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v22.11.0/etc/npmrc
+7 verbose title npm install axios
+8 verbose argv "install" "axios"
+9 verbose logfile logs-max:10 dir:/home/admin_/.npm/_logs/2024-11-20T21_09_38_035Z-
+10 verbose logfile /home/admin_/.npm/_logs/2024-11-20T21_09_38_035Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest axios@^1.7.7
+16 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/axios 263ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/axios set size:undefined disposed:false
+19 silly placeDep ROOT axios@1.7.7 REPLACE for:  want: ^1.7.7
+20 silly reify moves {}
+21 silly audit bulk request {
+21 silly audit   '@firebase/analytics': [ '0.10.10' ],
+21 silly audit   '@firebase/analytics-compat': [ '0.2.16' ],
+21 silly audit   '@firebase/analytics-types': [ '0.8.3' ],
+21 silly audit   '@firebase/app': [ '0.10.16' ],
+21 silly audit   '@firebase/app-check': [ '0.8.10' ],
+21 silly audit   '@firebase/app-check-compat': [ '0.3.17' ],
+21 silly audit   '@firebase/app-check-interop-types': [ '0.3.3' ],
+21 silly audit   '@firebase/app-check-types': [ '0.5.3' ],
+21 silly audit   '@firebase/app-compat': [ '0.2.46' ],
+21 silly audit   '@firebase/app-types': [ '0.9.3' ],
+21 silly audit   '@firebase/auth': [ '1.8.1' ],
+21 silly audit   '@firebase/auth-compat': [ '0.5.16' ],
+21 silly audit   '@firebase/auth-interop-types': [ '0.2.4' ],
+21 silly audit   '@firebase/auth-types': [ '0.12.3' ],
+21 silly audit   '@firebase/component': [ '0.6.11' ],
+21 silly audit   '@firebase/data-connect': [ '0.1.2' ],
+21 silly audit   '@firebase/database': [ '1.0.10' ],
+21 silly audit   '@firebase/database-compat': [ '2.0.1' ],
+21 silly audit   '@firebase/database-types': [ '1.0.7' ],
+21 silly audit   '@firebase/firestore': [ '4.7.5' ],
+21 silly audit   '@firebase/firestore-compat': [ '0.3.40' ],
+21 silly audit   '@firebase/firestore-types': [ '3.0.3' ],
+21 silly audit   '@firebase/functions': [ '0.11.10' ],
+21 silly audit   '@firebase/functions-compat': [ '0.3.16' ],
+21 silly audit   '@firebase/functions-types': [ '0.6.3' ],
+21 silly audit   '@firebase/installations': [ '0.6.11' ],
+21 silly audit   '@firebase/installations-compat': [ '0.2.11' ],
+21 silly audit   '@firebase/installations-types': [ '0.5.3' ],
+21 silly audit   '@firebase/logger': [ '0.4.4' ],
+21 silly audit   '@firebase/messaging': [ '0.12.14' ],
+21 silly audit   '@firebase/messaging-compat': [ '0.2.14' ],
+21 silly audit   '@firebase/messaging-interop-types': [ '0.2.3' ],
+21 silly audit   '@firebase/performance': [ '0.6.11' ],
+21 silly audit   '@firebase/performance-compat': [ '0.2.11' ],
+21 silly audit   '@firebase/performance-types': [ '0.2.3' ],
+21 silly audit   '@firebase/remote-config': [ '0.4.11' ],
+21 silly audit   '@firebase/remote-config-compat': [ '0.2.11' ],
+21 silly audit   '@firebase/remote-config-types': [ '0.3.3' ],
+21 silly audit   '@firebase/storage': [ '0.13.4' ],
+21 silly audit   '@firebase/storage-compat': [ '0.3.14' ],
+21 silly audit   '@firebase/storage-types': [ '0.8.3' ],
+21 silly audit   '@firebase/util': [ '1.10.2' ],
+21 silly audit   '@firebase/vertexai': [ '1.0.1' ],
+21 silly audit   '@firebase/webchannel-wrapper': [ '1.0.3' ],
+21 silly audit   '@grpc/grpc-js': [ '1.9.15' ],
+21 silly audit   '@grpc/proto-loader': [ '0.7.13' ],
+21 silly audit   '@popperjs/core': [ '2.11.8' ],
+21 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+21 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+21 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+21 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+21 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+21 silly audit   '@protobufjs/float': [ '1.0.2' ],
+21 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+21 silly audit   '@protobufjs/path': [ '1.1.2' ],
+21 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+21 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+21 silly audit   '@remix-run/router': [ '1.21.0' ],
+21 silly audit   '@types/node': [ '22.9.1' ],
+21 silly audit   'ansi-regex': [ '5.0.1' ],
+21 silly audit   'ansi-styles': [ '4.3.0' ],
+21 silly audit   asynckit: [ '0.4.0' ],
+21 silly audit   bootstrap: [ '5.3.3' ],
+21 silly audit   cliui: [ '8.0.1' ],
+21 silly audit   'color-convert': [ '2.0.1' ],
+21 silly audit   'color-name': [ '1.1.4' ],
+21 silly audit   'combined-stream': [ '1.0.8' ],
+21 silly audit   'delayed-stream': [ '1.0.0' ],
+21 silly audit   'emoji-regex': [ '8.0.0' ],
+21 silly audit   escalade: [ '3.2.0' ],
+21 silly audit   'faye-websocket': [ '0.11.4' ],
+21 silly audit   firebase: [ '11.0.2' ],
+21 silly audit   'follow-redirects': [ '1.15.9' ],
+21 silly audit   'form-data': [ '4.0.1' ],
+21 silly audit   'get-caller-file': [ '2.0.5' ],
+21 silly audit   'http-parser-js': [ '0.5.8' ],
+21 silly audit   idb: [ '7.1.1' ],
+21 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+21 silly audit   'js-tokens': [ '4.0.0' ],
+21 silly audit   'lodash.camelcase': [ '4.3.0' ],
+21 silly audit   long: [ '5.2.3' ],
+21 silly audit   'loose-envify': [ '1.4.0' ],
+21 silly audit   'mime-db': [ '1.52.0' ],
+21 silly audit   'mime-types': [ '2.1.35' ],
+21 silly audit   protobufjs: [ '7.4.0' ],
+21 silly audit   'proxy-from-env': [ '1.1.0' ],
+21 silly audit   react: [ '18.3.1' ],
+21 silly audit   'react-dom': [ '18.3.1' ],
+21 silly audit   'react-router': [ '6.28.0' ],
+21 silly audit   'react-router-dom': [ '6.28.0' ],
+21 silly audit   'require-directory': [ '2.1.1' ],
+21 silly audit   'safe-buffer': [ '5.2.1' ],
+21 silly audit   scheduler: [ '0.23.2' ],
+21 silly audit   'string-width': [ '4.2.3' ],
+21 silly audit   'strip-ansi': [ '6.0.1' ],
+21 silly audit   tslib: [ '2.8.1' ],
+21 silly audit   'undici-types': [ '6.19.8' ],
+21 silly audit   'websocket-driver': [ '0.7.4' ],
+21 silly audit   'websocket-extensions': [ '0.1.4' ],
+21 silly audit   'wrap-ansi': [ '7.0.0' ],
+21 silly audit   y18n: [ '5.0.8' ],
+21 silly audit   yargs: [ '17.7.2' ],
+21 silly audit   'yargs-parser': [ '21.1.1' ],
+21 silly audit   axios: [ '1.7.7' ]
+21 silly audit }
+22 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 102ms
+23 silly audit report {}
+24 verbose cwd /home/admin_/customer-admin-app
+25 verbose os Linux 6.1.112+
+26 verbose node v22.11.0
+27 verbose npm  v10.9.0
+28 verbose exit 0
+29 info ok

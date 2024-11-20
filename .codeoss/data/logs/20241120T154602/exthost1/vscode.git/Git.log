@@ -1,0 +1,54 @@
+2024-11-20 15:46:10.554 [info] Log level: Info
+2024-11-20 15:46:10.554 [info] Validating found git in: "git"
+2024-11-20 15:46:10.554 [info] Using git "2.43.0" from "git"
+2024-11-20 15:46:10.554 [info] > git rev-parse --show-toplevel [120ms]
+2024-11-20 15:46:10.554 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:10.554 [info] > git rev-parse --show-toplevel [11ms]
+2024-11-20 15:46:10.554 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:10.573 [info] > git rev-parse --show-toplevel [413ms]
+2024-11-20 15:46:10.573 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:10.585 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-20 15:46:10.585 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:10.598 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-20 15:46:10.598 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:13.337 [info] > git rev-parse --show-toplevel [2729ms]
+2024-11-20 15:46:13.337 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:13.359 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-20 15:46:13.360 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:13.483 [info] > git rev-parse --show-toplevel [104ms]
+2024-11-20 15:46:13.483 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:13.517 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-20 15:46:13.517 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:13.559 [info] > git rev-parse --show-toplevel [17ms]
+2024-11-20 15:46:13.559 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:24.898 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-20 15:46:24.898 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 15:46:25.894 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-20 15:46:25.895 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 16:53:03.442 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-20 16:53:03.442 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 16:53:36.178 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-20 16:53:36.178 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 17:06:53.910 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-20 17:06:53.932 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-20 17:06:53.950 [info] Open repository: /home/admin_/.nvm
+2024-11-20 17:06:53.994 [info] > git config --get commit.template [23ms]
+2024-11-20 17:06:53.995 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-11-20 17:06:54.041 [info] > git status -z -uall [25ms]
+2024-11-20 17:06:54.192 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [98ms]
+2024-11-20 17:06:54.193 [info] > git config --get commit.template [120ms]
+2024-11-20 17:06:54.230 [info] > git status -z -uall [17ms]

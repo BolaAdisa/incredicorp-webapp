@@ -1,0 +1,4 @@
+[Error - 8:01:13 AM] Failed to load entities from /home/admin_/customer-admin-app/react-frontend/package-lock.json: Error: ENOENT: no such file or directory, open '/home/admin_/customer-admin-app/react-frontend/package-lock.json'
+[Error - 8:01:13 AM] Failed to load entities from /home/admin_/customer-admin-app/react-frontend/node_modules/.package-lock.json: Error: ENOENT: no such file or directory, open '/home/admin_/customer-admin-app/react-frontend/node_modules/.package-lock.json'
+[Error - 8:01:13 AM] Failed to load entities from /home/admin_/customer-admin-app/react-frontend/package-lock.json: Error: ENOENT: no such file or directory, open '/home/admin_/customer-admin-app/react-frontend/package-lock.json'
+[Error - 8:01:13 AM] Failed to load entities from /home/admin_/customer-admin-app/react-frontend/node_modules/.package-lock.json: Error: ENOENT: no such file or directory, open '/home/admin_/customer-admin-app/react-frontend/node_modules/.package-lock.json'

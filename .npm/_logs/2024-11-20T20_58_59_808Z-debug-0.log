@@ -1,0 +1,93 @@
+0 verbose cli /usr/local/nvm/versions/node/v22.11.0/bin/node /usr/local/nvm/versions/node/v22.11.0/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:/usr/local/nvm/versions/node/v22.11.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/admin_/.npmrc
+5 silly config load:file:/usr/local/nvm/versions/node/v22.11.0/etc/npmrc
+6 verbose title npm install axios
+7 verbose argv "install" "axios"
+8 verbose logfile logs-max:10 dir:/home/admin_/.npm/_logs/2024-11-20T20_58_59_808Z-
+9 verbose logfile /home/admin_/.npm/_logs/2024-11-20T20_58_59_808Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest axios@*
+15 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/axios 201ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/axios set size:undefined disposed:false
+18 silly placeDep ROOT axios@1.7.7 OK for:  want: *
+19 silly fetch manifest form-data@^4.0.0
+20 silly packumentCache full:https://registry.npmjs.org/form-data cache-miss
+21 silly fetch manifest proxy-from-env@^1.1.0
+22 silly packumentCache full:https://registry.npmjs.org/proxy-from-env cache-miss
+23 silly fetch manifest follow-redirects@^1.15.6
+24 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 56ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/proxy-from-env set size:undefined disposed:false
+27 http fetch GET 200 https://registry.npmjs.org/form-data 131ms (cache revalidated)
+28 silly packumentCache full:https://registry.npmjs.org/form-data set size:120220 disposed:false
+29 http fetch GET 200 https://registry.npmjs.org/follow-redirects 139ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+31 silly placeDep ROOT follow-redirects@1.15.9 OK for: axios@1.7.7 want: ^1.15.6
+32 silly placeDep ROOT form-data@4.0.1 OK for: axios@1.7.7 want: ^4.0.0
+33 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.7.7 want: ^1.1.0
+34 silly fetch manifest asynckit@^0.4.0
+35 silly packumentCache full:https://registry.npmjs.org/asynckit cache-miss
+36 silly fetch manifest combined-stream@^1.0.8
+37 silly packumentCache full:https://registry.npmjs.org/combined-stream cache-miss
+38 silly fetch manifest mime-types@^2.1.12
+39 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/combined-stream 68ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmjs.org/combined-stream set size:40337 disposed:false
+42 http fetch GET 200 https://registry.npmjs.org/asynckit 90ms (cache revalidated)
+43 silly packumentCache full:https://registry.npmjs.org/asynckit set size:17357 disposed:false
+44 http fetch GET 200 https://registry.npmjs.org/mime-types 107ms (cache revalidated)
+45 silly packumentCache full:https://registry.npmjs.org/mime-types set size:129792 disposed:false
+46 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.1 want: ^0.4.0
+47 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.1 want: ^1.0.8
+48 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.1 want: ^2.1.12
+49 silly fetch manifest delayed-stream@~1.0.0
+50 silly packumentCache full:https://registry.npmjs.org/delayed-stream cache-miss
+51 silly fetch manifest mime-db@1.52.0
+52 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/mime-db 39ms (cache revalidated)
+54 silly packumentCache full:https://registry.npmjs.org/mime-db set size:162007 disposed:false
+55 http fetch GET 200 https://registry.npmjs.org/delayed-stream 61ms (cache revalidated)
+56 silly packumentCache full:https://registry.npmjs.org/delayed-stream set size:15820 disposed:false
+57 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+58 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+59 silly reify moves {}
+60 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+61 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+62 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+63 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+64 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+65 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+66 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz. Extracting by manifest.
+67 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.1.tgz. Extracting by manifest.
+68 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.7.7.tgz. Extracting by manifest.
+69 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 110ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 112ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 134ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 159ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz 155ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 158ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 172ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.1.tgz 171ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.7.7.tgz 247ms (cache miss)
+78 silly ADD node_modules/mime-db
+79 silly ADD node_modules/delayed-stream
+80 silly ADD node_modules/mime-types
+81 silly ADD node_modules/combined-stream
+82 silly ADD node_modules/asynckit
+83 silly ADD node_modules/proxy-from-env
+84 silly ADD node_modules/form-data
+85 silly ADD node_modules/follow-redirects
+86 silly ADD node_modules/axios
+87 verbose cwd /home/admin_
+88 verbose os Linux 6.1.112+
+89 verbose node v22.11.0
+90 verbose npm  v10.9.0
+91 verbose exit 0
+92 info ok

@@ -1,0 +1,25 @@
+2024-11-20 20:52:32.363 [info] 
+
+
+
+
+2024-11-20 20:52:32.410 [info] Extension host agent started.
+2024-11-20 20:52:33.880 [info] [127.0.0.1][97a30188][ManagementConnection] New connection established.
+2024-11-20 20:52:33.927 [info] [127.0.0.1][694391ca][ExtensionHostConnection] New connection established.
+2024-11-20 20:52:35.481 [info] [127.0.0.1][694391ca][ExtensionHostConnection] <1280> Launched Extension Host Process.
+2024-11-20 20:52:48.056 [error] [127.0.0.1][7c0dd5d7][ManagementConnection] Unknown reconnection token (never seen).
+2024-11-20 20:52:49.243 [info] [127.0.0.1][52a7aee0][ManagementConnection] New connection established.
+2024-11-20 20:52:49.290 [info] [127.0.0.1][33fc6bd8][ExtensionHostConnection] New connection established.
+2024-11-20 20:52:49.301 [info] [127.0.0.1][33fc6bd8][ExtensionHostConnection] <1448> Launched Extension Host Process.
+2024-11-20 20:52:51.343 [warning] RequestStore#acceptReply was called without receiving a matching request 13
+2024-11-20 20:52:51.343 [warning] RequestStore#acceptReply was called without receiving a matching request 14
+2024-11-20 20:52:51.343 [warning] RequestStore#acceptReply was called without receiving a matching request 15
+2024-11-20 20:52:51.344 [warning] RequestStore#acceptReply was called without receiving a matching request 16
+2024-11-20 20:52:51.344 [warning] RequestStore#acceptReply was called without receiving a matching request 17
+2024-11-20 20:52:51.344 [warning] RequestStore#acceptReply was called without receiving a matching request 18
+2024-11-20 20:52:51.344 [warning] RequestStore#acceptReply was called without receiving a matching request 19
+2024-11-20 20:52:51.344 [warning] RequestStore#acceptReply was called without receiving a matching request 20
+2024-11-20 20:52:51.345 [warning] RequestStore#acceptReply was called without receiving a matching request 21
+2024-11-20 20:52:51.345 [warning] RequestStore#acceptReply was called without receiving a matching request 22
+2024-11-20 20:52:51.345 [warning] RequestStore#acceptReply was called without receiving a matching request 23
+2024-11-20 20:52:51.345 [warning] RequestStore#acceptReply was called without receiving a matching request 24

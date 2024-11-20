@@ -1,0 +1,168 @@
+2024-11-20 20:52:59.112 [info] Log level: Info
+2024-11-20 20:52:59.112 [info] Validating found git in: "git"
+2024-11-20 20:52:59.113 [info] Using git "2.43.0" from "git"
+2024-11-20 20:52:59.113 [info] > git rev-parse --show-toplevel [6181ms]
+2024-11-20 20:52:59.113 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:52:59.113 [info] > git rev-parse --show-toplevel [184ms]
+2024-11-20 20:52:59.113 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:52:59.114 [info] > git rev-parse --show-toplevel [21ms]
+2024-11-20 20:52:59.114 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:52:59.120 [info] > git rev-parse --show-toplevel [135ms]
+2024-11-20 20:52:59.120 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:52:59.236 [info] > git rev-parse --show-toplevel [91ms]
+2024-11-20 20:52:59.237 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:52:59.400 [info] > git rev-parse --show-toplevel [31ms]
+2024-11-20 20:52:59.400 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:52:59.672 [info] > git rev-parse --show-toplevel [245ms]
+2024-11-20 20:52:59.673 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:52:59.763 [info] > git rev-parse --show-toplevel [21ms]
+2024-11-20 20:52:59.763 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:52:59.887 [info] > git rev-parse --show-toplevel [98ms]
+2024-11-20 20:53:00.037 [info] > git rev-parse --git-dir --git-common-dir [114ms]
+2024-11-20 20:53:00.058 [info] Open repository: /home/admin_/.nvm
+2024-11-20 20:53:00.153 [info] > git rev-parse --show-toplevel [25ms]
+2024-11-20 20:53:00.153 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:53:00.154 [info] > git config --get commit.template [57ms]
+2024-11-20 20:53:00.219 [info] > git rev-parse --show-toplevel [32ms]
+2024-11-20 20:53:00.219 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:53:00.258 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [44ms]
+2024-11-20 20:53:00.290 [info] > git rev-parse --show-toplevel [33ms]
+2024-11-20 20:53:00.291 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:53:00.351 [info] > git status -z -uall [63ms]
+2024-11-20 20:53:00.400 [info] > git rev-parse --show-toplevel [51ms]
+2024-11-20 20:53:00.400 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:53:00.422 [info] > git config --get commit.template [22ms]
+2024-11-20 20:53:00.545 [info] > git rev-parse --show-toplevel [125ms]
+2024-11-20 20:53:00.545 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-20 20:53:00.546 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [34ms]
+2024-11-20 20:53:00.601 [info] > git status -z -uall [22ms]
+2024-11-20 20:54:18.441 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-20 20:54:18.466 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-20 20:54:18.471 [info] Open repository: /home/admin_
+2024-11-20 20:54:18.515 [info] No remotes found in the git config file.
+2024-11-20 20:54:18.517 [info] > git config --get commit.template [24ms]
+2024-11-20 20:54:18.518 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-11-20 20:54:18.518 [warning] No such branch: master.
+2024-11-20 20:54:18.594 [info] > git status -z -uall [49ms]
+2024-11-20 20:54:19.327 [info] > git config --get commit.template [12ms]
+2024-11-20 20:54:19.352 [info] No remotes found in the git config file.
+2024-11-20 20:54:19.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 20:54:19.353 [warning] No such branch: master.
+2024-11-20 20:54:19.421 [info] > git status -z -uall [47ms]
+2024-11-20 20:55:18.447 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-20 20:55:40.645 [info] > git show --textconv :customer-admin-app/react-frontend/src/Transactions.js [22ms]
+2024-11-20 20:55:40.646 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/src/Transactions.js [3ms]
+2024-11-20 20:55:41.419 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-20 20:55:45.800 [info] > git config --get commit.template [40ms]
+2024-11-20 20:55:45.801 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/src/Transactions.js [3ms]
+2024-11-20 20:55:45.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2024-11-20 20:55:45.802 [warning] No such branch: master.
+2024-11-20 20:55:45.883 [info] > git status -z -uall [62ms]
+2024-11-20 20:55:45.883 [info] > git show --textconv :customer-admin-app/react-frontend/src/Transactions.js [7ms]
+2024-11-20 20:56:51.426 [info] > git config --get commit.template [2ms]
+2024-11-20 20:56:51.446 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 20:56:51.446 [warning] No such branch: master.
+2024-11-20 20:56:51.511 [info] > git status -z -uall [46ms]
+2024-11-20 20:56:56.618 [info] > git config --get commit.template [22ms]
+2024-11-20 20:56:56.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 20:56:56.630 [warning] No such branch: master.
+2024-11-20 20:56:56.696 [info] > git status -z -uall [46ms]
+2024-11-20 20:57:01.208 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-20 20:57:37.764 [info] > git config --get commit.template [21ms]
+2024-11-20 20:57:37.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 20:57:37.764 [warning] No such branch: master.
+2024-11-20 20:57:37.808 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/src/Transactions.js [3ms]
+2024-11-20 20:57:37.831 [info] > git status -z -uall [47ms]
+2024-11-20 20:57:37.899 [info] > git show --textconv :customer-admin-app/react-frontend/src/Transactions.js [12ms]
+2024-11-20 20:57:42.910 [info] > git config --get commit.template [21ms]
+2024-11-20 20:57:42.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-11-20 20:57:42.911 [warning] No such branch: master.
+2024-11-20 20:57:42.977 [info] > git status -z -uall [46ms]
+2024-11-20 20:59:02.761 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-20 20:59:06.893 [info] > git config --get commit.template [22ms]
+2024-11-20 20:59:06.893 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-20 20:59:06.893 [warning] No such branch: master.
+2024-11-20 20:59:06.960 [info] > git status -z -uall [48ms]
+2024-11-20 20:59:16.707 [info] > git config --get commit.template [21ms]
+2024-11-20 20:59:16.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 20:59:16.707 [warning] No such branch: master.
+2024-11-20 20:59:16.774 [info] > git status -z -uall [47ms]
+2024-11-20 20:59:52.064 [info] > git config --get commit.template [21ms]
+2024-11-20 20:59:52.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 20:59:52.064 [warning] No such branch: master.
+2024-11-20 20:59:52.128 [info] > git status -z -uall [45ms]
+2024-11-20 20:59:57.218 [info] > git config --get commit.template [21ms]
+2024-11-20 20:59:57.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-20 20:59:57.218 [warning] No such branch: master.
+2024-11-20 20:59:57.285 [info] > git status -z -uall [48ms]
+2024-11-20 21:00:10.827 [info] > git show --textconv :customer-admin-app/react-frontend/package.json [30ms]
+2024-11-20 21:00:10.831 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/package.json [5ms]
+2024-11-20 21:00:52.896 [info] > git show --textconv :customer-admin-app/react-frontend/package-lock.json [27ms]
+2024-11-20 21:00:52.900 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/package-lock.json [6ms]
+2024-11-20 21:00:54.357 [info] > git show --textconv :customer-admin-app/react-frontend/package.json [23ms]
+2024-11-20 21:00:54.359 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/package.json [4ms]
+2024-11-20 21:00:56.355 [info] > git show --textconv :customer-admin-app/react-frontend/src/Transactions.js [27ms]
+2024-11-20 21:00:56.358 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/src/Transactions.js [6ms]
+2024-11-20 21:02:42.186 [info] > git config --get commit.template [25ms]
+2024-11-20 21:02:42.186 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 21:02:42.186 [warning] No such branch: master.
+2024-11-20 21:02:42.298 [info] > git status -z -uall [93ms]
+2024-11-20 21:03:14.360 [info] > git config --get commit.template [23ms]
+2024-11-20 21:03:14.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 21:03:14.360 [warning] No such branch: master.
+2024-11-20 21:03:14.467 [info] > git status -z -uall [87ms]
+2024-11-20 21:08:04.757 [info] > git config --get commit.template [4ms]
+2024-11-20 21:08:04.782 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-11-20 21:08:04.782 [warning] No such branch: master.
+2024-11-20 21:08:04.918 [info] > git status -z -uall [115ms]
+2024-11-20 21:08:10.040 [info] > git config --get commit.template [23ms]
+2024-11-20 21:08:10.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 21:08:10.040 [warning] No such branch: master.
+2024-11-20 21:08:10.143 [info] > git status -z -uall [81ms]
+2024-11-20 21:09:45.052 [info] > git config --get commit.template [2ms]
+2024-11-20 21:09:45.073 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-20 21:09:45.073 [warning] No such branch: master.
+2024-11-20 21:09:45.105 [info] > git status -z -uall [13ms]
+2024-11-20 21:09:50.199 [info] > git config --get commit.template [20ms]
+2024-11-20 21:09:50.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 21:09:50.200 [warning] No such branch: master.
+2024-11-20 21:09:50.233 [info] > git status -z -uall [14ms]
+2024-11-20 21:09:53.908 [info] > git show --textconv :customer-admin-app/react-frontend/ui-debug.log [23ms]
+2024-11-20 21:09:53.910 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/ui-debug.log [4ms]
+2024-11-20 21:09:56.271 [info] > git show --textconv :customer-admin-app/react-frontend/src/Transactions.js [23ms]
+2024-11-20 21:09:56.272 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/src/Transactions.js [5ms]
+2024-11-20 21:11:18.722 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-20 21:11:30.540 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-20 21:11:31.329 [info] > git show --textconv :backend/functions/index.js [24ms]
+2024-11-20 21:11:31.331 [info] > git ls-files --stage -- /home/admin_/backend/functions/index.js [5ms]
+2024-11-20 21:11:33.907 [info] > git show --textconv :customer-admin-app/react-frontend/src/Transactions.js [37ms]
+2024-11-20 21:11:33.908 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/src/Transactions.js [14ms]
+2024-11-20 21:13:18.197 [info] > git config --get commit.template [43ms]
+2024-11-20 21:13:18.199 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/src/Transactions.js [3ms]
+2024-11-20 21:13:18.220 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [46ms]
+2024-11-20 21:13:18.220 [warning] No such branch: master.
+2024-11-20 21:13:18.242 [info] > git cat-file -s 861fbede259b43f0eb46ce7d8f8e7a81fc866fc9 [22ms]
+2024-11-20 21:13:18.256 [info] > git status -z -uall [16ms]
+2024-11-20 21:13:18.316 [info] > git show --textconv :customer-admin-app/react-frontend/src/Transactions.js [2ms]
+2024-11-20 21:15:11.109 [info] > git config --get commit.template [22ms]
+2024-11-20 21:15:11.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 21:15:11.155 [info] > git status -z -uall [25ms]
+2024-11-20 21:15:11.192 [info] > git ls-files --stage -- /home/admin_/customer-admin-app/react-frontend/src/Transactions.js [39ms]
+2024-11-20 21:15:11.215 [info] > git cat-file -s 861fbede259b43f0eb46ce7d8f8e7a81fc866fc9 [2ms]
+2024-11-20 21:15:11.485 [info] > git show --textconv :customer-admin-app/react-frontend/src/Transactions.js [4ms]
+2024-11-20 21:16:55.763 [info] > git config --get commit.template [21ms]
+2024-11-20 21:16:55.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-20 21:16:55.798 [info] > git status -z -uall [13ms]

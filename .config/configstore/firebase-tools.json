@@ -1,0 +1,39 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1732061161141
+	},
+	"loginScopes": [
+		"email",
+		"openid",
+		"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+		"https://www.googleapis.com/auth/firebase",
+		"https://www.googleapis.com/auth/cloud-platform"
+	],
+	"activeProjects": {
+		"/home/admin_/customer-admin-app": "incredicorp-webapp",
+		"/home/admin_/backend": "incredicorp-webapp"
+	},
+	"emulator-analytics-clientId": "a560352b-9f37-4524-9b9a-a3b5d4912fbc",
+	"webconfig": {
+		"incredicorp-webapp": {
+			"projectId": "incredicorp-webapp",
+			"appId": "1:380595618392:web:4456a3f244f313c9bdc02d",
+			"storageBucket": "incredicorp-webapp.firebasestorage.app",
+			"apiKey": "AIzaSyAMwREY-Ec9WIV0ku-TUaX4wsB7Jje9sco",
+			"authDomain": "incredicorp-webapp.firebaseapp.com",
+			"messagingSenderId": "380595618392",
+			"measurementId": "G-BV55EEC3YV"
+		}
+	},
+	"additionalAccounts": [],
+	"activeAccounts": {},
+	"usage": true,
+	"analytics-uuid": "66e04e74-96eb-4e72-ba8a-8adafe074657"
+}

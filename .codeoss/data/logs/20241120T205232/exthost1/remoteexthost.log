@@ -1,0 +1,22 @@
+2024-11-20 20:52:36.624 [info] Extension host with pid 1280 started
+2024-11-20 20:52:36.649 [error] Error: EEXIST: file already exists, open '/home/admin_/.codeoss/data/User/workspaceStorage/-4d68eafe/vscode.lock'
+2024-11-20 20:52:36.672 [info] Lock '/home/admin_/.codeoss/data/User/workspaceStorage/-4d68eafe/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-20 20:52:36.674 [info] Lock '/home/admin_/.codeoss/data/User/workspaceStorage/-4d68eafe/vscode.lock': The pid 1241 appears to be gone.
+2024-11-20 20:52:36.674 [info] Lock '/home/admin_/.codeoss/data/User/workspaceStorage/-4d68eafe/vscode.lock': Deleting a stale lock.
+2024-11-20 20:52:36.684 [info] Lock '/home/admin_/.codeoss/data/User/workspaceStorage/-4d68eafe/vscode.lock': Lock acquired.
+2024-11-20 20:52:36.733 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-11-20 20:52:36.735 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-20 20:52:37.165 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-20 20:52:37.337 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-20 20:52:37.339 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-20 20:52:38.285 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-11-20 20:52:38.897 [info] Eager extensions activated
+2024-11-20 20:52:38.898 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-11-20 20:52:38.898 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-11-20 20:52:38.899 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-11-20 20:52:38.899 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-20 20:52:38.900 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-20 20:52:41.868 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-20 20:52:42.978 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-11-20 20:54:18.073 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2326
+2024-11-20 20:54:18.826 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2326
