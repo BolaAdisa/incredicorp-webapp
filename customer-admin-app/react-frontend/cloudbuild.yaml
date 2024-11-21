@@ -8,7 +8,7 @@ steps:
   args:
   - 'run'
   - 'deploy'
-  - 'incredicorpcloudrun' 
+  - 'incredicorp-cloudrun'
   - '--image'
   - 'gcr.io/incredicorp-webapp/incredicorpimage:$COMMIT_SHA' 
   - '--region'
