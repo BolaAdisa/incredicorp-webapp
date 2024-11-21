@@ -4,6 +4,8 @@ import app from "./firebase";
 import { getAuth } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
+import { onAuthStateChanged } from "firebase/auth"; // Add this import
+
 
 const auth = getAuth(app);
 const db = getFirestore(app);
@@ -18,28 +20,33 @@ const Dashboard = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const fetchUserData = async () => {
-      try {
-        const user = auth.currentUser;
-        if (user) {
-          const userDocRef = doc(db, "users", user.uid);
-          const userDocSnap = await getDoc(userDocRef);
-          if (userDocSnap.exists()) {
-            setUserData(userDocSnap.data());
-
-            // Redirect admin users to the admin page
-            if (user.email.startsWith("admin")) {
-              navigate("/admin"); 
-            }
-          }
-        }
-      } catch (error) {
-        console.error("Error fetching user data:", error);
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        fetchUserData(user);
+      } else {
+        setUserData(null);
       }
-    };
-
-    fetchUserData();
-  }, [navigate]); // Add navigate to the dependency array
+    });
+    return () => unsubscribe(); // Cleanup on component unmount
+  }, []);
+  
+  // Update fetchUserData to handle admin redirection more clearly
+  const fetchUserData = async (user) => {
+    try {
+      const userDocRef = doc(db, "users", user.uid);
+      const userDocSnap = await getDoc(userDocRef);
+  
+      if (userDocSnap.exists()) {
+        setUserData(userDocSnap.data());
+        if (user.email.startsWith("admin")) {
+          navigate("/admin");  // Redirect admin to /admin
+        }
+      }
+    } catch (error) {
+      console.error("Error fetching user data:", error);
+    }
+  };
+    
 
   const handleAddTransaction = async (e) => {
     e.preventDefault();

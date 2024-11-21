@@ -25,31 +25,19 @@ const Login = () => {
 
 
   const handleLogin = async () => {
-
     try {
-
-      const userCredential = await signInWithEmailAndPassword(
-
-        auth,
-
-        email,
-
-        password
-
-      );
-
+      const userCredential = await signInWithEmailAndPassword(auth, email, password);
       console.log("User logged in:", userCredential.user);
-
-      navigate("/dashboard"); // Redirect to the Dashboard after successful login
-
+  
+      if (userCredential.user.email.startsWith("admin")) {
+        navigate("/admin"); // Redirect to the Admin Dashboard
+      } else {
+        navigate("/dashboard"); // Redirect to the regular Dashboard
+      }
     } catch (error) {
-
       console.error("Login failed:", error.message);
-
     }
-
-  };
-
+  };  
 
 
   return (
