@@ -8,7 +8,7 @@ steps:
   args:
   - 'run'
   - 'deploy'
-  - 'incredicorp-cloudrun'
+  - 'incredicorp-cloudrun' 
   - '--image'
   - 'gcr.io/incredicorp-webapp/incredicorpimage:$COMMIT_SHA' 
   - '--region'
@@ -16,3 +16,6 @@ steps:
   - '--platform'
   - 'managed'
   - '--allow-unauthenticated'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
