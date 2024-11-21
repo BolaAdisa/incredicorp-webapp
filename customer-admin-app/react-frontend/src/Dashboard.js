@@ -1,13 +1,20 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios"; // Import Axios for API calls
+import { getFirestore, collection, addDoc } from "firebase/firestore";
+import app from "./firebase";
 import { getAuth } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { doc, getDoc } from "firebase/firestore";
 
-const auth = getAuth();
+const auth = getAuth(app);
+const db = getFirestore(app);
 
 const Dashboard = () => {
-  const [userData, setUserData] = useState(null); // User data from API
-  const [message, setMessage] = useState(""); // Feedback message for the UI
+  const [date, setDate] = useState("");
+  const [amount, setAmount] = useState("");
+  const [sentTo, setSentTo] = useState("");
+  const [balance, setBalance] = useState("");
+  const [message, setMessage] = useState("");
+  const [userData, setUserData] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -15,29 +22,55 @@ const Dashboard = () => {
       try {
         const user = auth.currentUser;
         if (user) {
-          const response = await axios.get(
-            "https://us-central1-your-incredicorp-webapp.cloudfunctions.net/api/account", // Replace with your Cloud Functions URL
-            {
-              params: { userId: user.uid }, // Pass the userId as a query parameter
+          const userDocRef = doc(db, "users", user.uid);
+          const userDocSnap = await getDoc(userDocRef);
+          if (userDocSnap.exists()) {
+            setUserData(userDocSnap.data());
+
+            // Redirect admin users to the admin page
+            if (user.email.startsWith("admin")) {
+              navigate("/admin"); 
             }
-          );
-          setUserData(response.data); // Update state with user data
+          }
         }
       } catch (error) {
         console.error("Error fetching user data:", error);
-        setMessage("Failed to fetch user data.");
       }
     };
 
     fetchUserData();
-  }, []);
+  }, [navigate]); // Add navigate to the dependency array
+
+  const handleAddTransaction = async (e) => {
+    e.preventDefault();
+    try {
+      const userId = auth.currentUser.uid;
+
+      await addDoc(collection(db, "transactions"), {
+        date,
+        amount,
+        sentTo,
+        balance,
+        userId: userId,
+      });
+
+      setMessage("Transaction added successfully!");
+      setDate("");
+      setAmount("");
+      setSentTo("");
+      setBalance("");
+    } catch (error) {
+      console.error("Error adding transaction: ", error.message);
+      setMessage("Error adding transaction. Please try again.");
+    }
+  };
 
   const handleViewTransactions = () => {
-    navigate("/transactions"); // Navigate to transaction history
+    navigate("/transactions");
   };
 
   const handleViewTransfers = () => {
-    navigate("/transfers"); // Navigate to transfers page
+    navigate("/transfers");
   };
 
   return (
@@ -51,7 +84,6 @@ const Dashboard = () => {
         )}
 
         <div>
-          {/* Buttons to navigate */}
           <button onClick={handleViewTransactions}>Transaction History</button>
           <button onClick={handleViewTransfers}>Make Transfer</button>
         </div>
@@ -61,13 +93,54 @@ const Dashboard = () => {
       {userData && (
         <div>
           <p>Email: {userData.email}</p>
-          <p>Account Balance: ${userData.balance}</p>
+          <p>Account Balance: {userData.balance}</p>
           <p>Account Number: {userData.accountnumber}</p>
           <p>Account Type: {userData.accounttype}</p>
         </div>
       )}
 
-      {/* Display error or success messages */}
+      {/* Form to add transaction */}
+      <p>This is where you can add transaction details.</p>
+      <form onSubmit={handleAddTransaction}>
+        <div>
+          <label>Date:</label>
+          <input
+            type="date"
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+            required
+          />
+        </div>
+        <div>
+          <label>Amount:</label>
+          <input
+            type="number"
+            value={amount}
+            onChange={(e) => setAmount(e.target.value)}
+            required
+          />
+        </div>
+        <div>
+          <label>Sent To:</label>
+          <input
+            type="text"
+            value={sentTo}
+            onChange={(e) => setSentTo(e.target.value)}
+            required
+          />
+        </div>
+        <div>
+          <label>Balance:</label>
+          <input
+            type="number"
+            value={balance}
+            onChange={(e) => setBalance(e.target.value)}
+            required
+          />
+        </div>
+        <button type="submit">Add Transaction</button>
+      </form>
+
       {message && <p>{message}</p>}
     </div>
   );

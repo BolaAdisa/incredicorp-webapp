@@ -1,21 +1,45 @@
 import React from "react";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Login from "./Login";
+
 import Dashboard from "./Dashboard";
+
+import AdminDashboard from "./AdminDashboard";
+
 import Transactions from "./Transactions"; // Import the Transactions component
+
 import Transfers from "./Transfers";
 
+
+
 const App = () => {
+
   return (
+
     <Router>
+
       <Routes>
+
         <Route path="/" element={<Login />} />
+
         <Route path="/dashboard" element={<Dashboard />} />
+
+        <Route path="/admin" element={<AdminDashboard />} />
+
         <Route path="/transactions" element={<Transactions />} /> 
+
         <Route path="/transfers" element={<Transfers />} /> { /* Add this line */}
+
       </Routes>
+
     </Router>
+
   );
+
 };
+
+
 
 export default App;
