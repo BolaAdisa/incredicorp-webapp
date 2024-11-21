@@ -1,0 +1,18 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/incredicorp-webapp/incredicorpimage:$COMMIT_SHA', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/incredicorp-webapp/incredicorpimage:$COMMIT_SHA'] 
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args:
+  - 'run'
+  - 'deploy'
+  - 'incredicorp-cloudrun'
+  - '--image'
+  - 'gcr.io/incredicorp-webapp/incredicorpimage:$COMMIT_SHA' 
+  - '--region'
+  - 'us-central1' 
+  - '--platform'
+  - 'managed'
+  - '--allow-unauthenticated'

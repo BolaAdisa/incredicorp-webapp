@@ -1,0 +1,24 @@
+'Log files:
+/home/admin_/.npm/_logs/2024-11-20T21_45_45_008Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: firebase-functions@3.24.1
+Found: firebase-admin@13.0.1
+node_modules/firebase-admin
+  firebase-admin@"^13.0.1" from the root project
+
+Could not resolve dependency:
+peer firebase-admin@"^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0" from firebase-functions@3.24.1
+node_modules/firebase-functions
+  firebase-functions@"^3.18.0" from the root project
+
+Conflicting peer dependency: firebase-admin@11.11.1
+node_modules/firebase-admin
+  peer firebase-admin@"^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0" from firebase-functions@3.24.1
+  node_modules/firebase-functions
+    firebase-functions@"^3.18.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

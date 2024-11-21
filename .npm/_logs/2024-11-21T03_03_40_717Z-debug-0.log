@@ -1,0 +1,13 @@
+0 verbose cli /usr/local/nvm/versions/node/v22.11.0/bin/node /usr/local/nvm/versions/node/v22.11.0/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:/usr/local/nvm/versions/node/v22.11.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/admin_/customer-admin-app/react-frontend/.npmrc
+5 silly config load:file:/home/admin_/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v22.11.0/etc/npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:/home/admin_/.npm/_logs/2024-11-21T03_03_40_717Z-
+10 verbose logfile /home/admin_/.npm/_logs/2024-11-21T03_03_40_717Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files

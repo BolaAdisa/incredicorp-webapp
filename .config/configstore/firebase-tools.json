@@ -7,7 +7,7 @@
 		"node8DeploysDisabledAfter": 1613390400000,
 		"node8RuntimeDisabledAfter": 1615809600000,
 		"node8WarnAfter": 1600128000000,
-		"fetched": 1732061161141
+		"fetched": 1732147614941
 	},
 	"loginScopes": [
 		"email",
@@ -18,7 +18,8 @@
 	],
 	"activeProjects": {
 		"/home/admin_/customer-admin-app": "incredicorp-webapp",
-		"/home/admin_/backend": "incredicorp-webapp"
+		"/home/admin_/backend": "incredicorp-webapp",
+		"/home/admin_": "incredicorp-webapp"
 	},
 	"emulator-analytics-clientId": "a560352b-9f37-4524-9b9a-a3b5d4912fbc",
 	"webconfig": {
@@ -35,5 +36,12 @@
 	"additionalAccounts": [],
 	"activeAccounts": {},
 	"usage": true,
-	"analytics-uuid": "66e04e74-96eb-4e72-ba8a-8adafe074657"
+	"analytics-uuid": "66e04e74-96eb-4e72-ba8a-8adafe074657",
+	"adminsdkconfig": {
+		"incredicorp-webapp": {
+			"projectId": "incredicorp-webapp",
+			"databaseURL": "https://incredicorp-webapp-default-rtdb.firebaseio.com",
+			"storageBucket": "incredicorp-webapp.firebasestorage.app"
+		}
+	}
 }

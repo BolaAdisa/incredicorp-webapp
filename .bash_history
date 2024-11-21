@@ -229,3 +229,189 @@ git config --global user.email
 git commit -m "Initial commit with project files"
 git push -u origin master
 cd
+git add .
+git commit -m "Commit 2"
+git push -u origin master
+cd backend
+curl "https://us-central1-incredicorp-webapp.cloudfunctions.net/api/account?userId=0FbVMK5J84g1Q0XwC0nTyx7PGSq1"
+firebase deploy --only functions
+firebase --version
+npm install -g firebase-tools
+firebase --version
+firebase deploy --only functions
+nano firebase.json
+firebase deploy --only functions
+npm init -y
+npm install firebase-functions firebase-admin express cors
+npm install firebase-functions@3.18.0 firebase-admin@9.11.0 express cors
+npm audit fix --force
+firebase deploy --only functions
+rm -rf node_modules
+npm install
+rm -rf node_modules
+npm cache clean --force
+npm install firebase-functions@3.18.0 firebase-admin@9.11.0 express cors --legacy-peer-deps
+npm audit fix --force
+npm install -g firebase-tools
+firebase deploy --only functions
+nano package.json
+rm -rf node_modules package-lock.json
+npm install
+nano package.json
+rm -rf node_modules
+rm package-lock.json
+cd /home/admin_/backend/incredicorp-webapp
+cd
+firebase deploy --only functions
+npm install
+firebase deploy --only functions
+firebase init
+cd ..
+firebase deploy --only functions
+cd backend
+cd
+cd backend
+cd
+firebase deploy --only functions
+cd backend
+firebase init functions
+cd 
+firebase deploy --only functions
+cd backend
+firebase deploy --only functions
+ls
+nano firebase.json
+firebase deploy --only functions
+nano firebase.json
+firebase deploy --only functions
+nano firebase.json
+firebase deploy --only functions
+nano firebase.json
+firebase deploy --only functions
+nano firebase.json
+firebase deploy --only functions
+chmod 755 index.js
+nano firebase.json
+firebase deploy --only functions
+npm install -g firebase-tools
+firebase deploy --only functions
+npm cache clean --force
+npm update
+npm install firebase-admin@^9.0.0 firebase-functions@^3.18.0
+npm update
+firebase deploy --only functions
+npm install --legacy-peer-deps
+npm cache clean --force
+npm update
+firebase deploy --only functions
+npm install -g firebase-tools
+rm -rf node_modules
+npm install
+firebase deploy --only functions --debug
+npm audit fix --force
+nano firebase.json
+npm install -g firebase-tools
+rm -rf node_modules package-lock.json
+npm install
+npm install --legacy-peer-deps
+rm -rf node_modules package-lock.json
+npm install
+npm install firebase-functions@latest
+firebase deploy --only functions
+npm install firebase-admin@12.3.0  # Or another version in the compatible range
+npm install firebase-functions@latest
+nano package.json
+firebase deploy --only functions
+rm -rf node_modules package-lock.json
+npm cache clean --force
+npm install
+firebase deploy --only functions
+npm cache clean --force
+nano package.json
+cd
+npm install -g firebase-tools
+cd backend
+firebase deploy --only functions
+firebase logout
+firebase login
+firebase login --port 9006  # Or another available port
+firebase login
+firebase emulators:start
+nano firebase.json
+firebase emulators:start
+firebase init hosting
+cd functions
+npm install
+firebase emulators:start
+firebase login
+gcloud functions deploy api --runtime nodejs22 --trigger-http --source functions --entry-point api
+cd
+gcloud functions deploy api --runtime nodejs22 --trigger-http --source functions --entry-point api
+firebase login
+set NODE_TLS_REJECT_UNAUTHORIZED=0
+firebase login
+npm start
+cd incredicorp-customer-admin
+cd customer-admin-app
+npm start
+ls
+cd react-frontend
+npm start
+git add .
+git commit -m "added admin view"
+gir push
+git push
+firebase deploy --only hosting
+npm start
+npm run build
+firebase deploy --only hosting
+npm start
+npm run build
+firebase deploy --only hosting
+npm run build
+firebase deploy --only hosting
+npm run build
+firebase deploy --only hosting
+git add .
+git push -m "changes to admin view"
+git commit -m "changes to admin view"
+git push
+cd react-frontend
+FROM nginx:alpine
+COPY ./build /usr/share/nginx/html
+EXPOSE 80
+nano Dockerfile
+nano cloudbuild.yaml
+git add .
+git commit -m "docker file and cloudbuild.yaml"
+git push
+git add .
+git commit -m "debugging"
+git push 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
+git push
+git add .
+git commit - m "debugging"
+git commit - m "debugging2"
+git add .  # This stages all changes in the current directory
+git commit -m "debugging"
+git push
+git add .  # This stages all changes in the current directory
+git commit -m "debugging"
+git push origin master  # Or 'git push' if you've set up a default remote
+git add .  # This stages all changes in the current directory
+git commit -m "debugging"
+git push
+docker build -t test-image -f Dockerfile .
+gcloud builds submit --config=customer-admin-app/react-frontend/cloudbuild.yaml --substitutions=COMMIT_SHA=$(git rev-parse HEAD)
+ls -l customer-admin-app/react-frontend
+ls -R
+find . -name "cloudbuild.yaml"
+gcloud builds submit --config=customer-admin-app/react-frontend/cloudbuild.yaml --substitutions=COMMIT_SHA=$(git rev-parse HEAD)
+ls -l customer-admin-app/react-frontend/cloudbuild.yaml
+find . -name "cloudbuild.yaml"
+cd
+find . -name "cloudbuild.yaml"
+ls -l ./customer-admin-app/react-frontend/cloudbuild.yaml
+gcloud builds submit --config=customer-admin-app/react-frontend/cloudbuild.yaml --substitutions=COMMIT_SHA=$(git rev-parse HEAD)
+docker build -t test-image -f ./customer-admin-app/react-frontend/Dockerfile ./customer-admin-app/react-frontend
+git add .

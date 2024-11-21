@@ -1,0 +1,18 @@
+'Log files:
+/home/admin_/.npm/_logs/2024-11-20T22_01_57_966Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: backend@1.0.0
+Found: firebase-admin@6.5.1
+node_modules/firebase-admin
+  firebase-admin@"^6.1.0" from the root project
+
+Could not resolve dependency:
+peer firebase-admin@"^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0" from firebase-functions@3.24.1
+node_modules/firebase-functions
+  firebase-functions@"^3.18.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

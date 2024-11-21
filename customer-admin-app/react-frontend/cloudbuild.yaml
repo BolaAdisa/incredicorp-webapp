@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/incredicorp-webapp/incredicorpimage:$COMMIT_SHA', '-f', './react-frontend/Dockerfile', './react-frontend']
+  args: ['build', '-t', 'gcr.io/incredicorp-webapp/incredicorpimage:$COMMIT_SHA', '-f', './react-frontend/Dockerfile', './react-frontend'] # Corrected line
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/incredicorp-webapp/incredicorpimage:$COMMIT_SHA']
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'

@@ -63,3 +63,8 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 2024-11-20 20:54:18.656 [info] > git status -z -uall [506ms]
 2024-11-20 20:54:18.659 [info] > git check-ignore -v -z --stdin [20ms]
 2024-11-20 20:59:02.343 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-20 22:52:04.638 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-20 22:52:09.191 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-20 22:52:26.626 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-20 22:52:30.611 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-20 22:54:08.420 [info] > git check-ignore -v -z --stdin [2ms]
